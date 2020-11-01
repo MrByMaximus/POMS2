@@ -12,9 +12,7 @@ import static android.graphics.Color.rgb;
 
 public class MainActivity extends AppCompatActivity {
     private EditText Name;
-    private TextView Name1;
     private EditText Surname;
-    private TextView Surname1;
     private TextView Result;
     private String TextResult;
 
@@ -25,8 +23,6 @@ public class MainActivity extends AppCompatActivity {
         Name=(EditText)findViewById(R.id.Input1);
         Surname=(EditText)findViewById(R.id.Input2);
         Result=(TextView)findViewById(R.id.textResult);
-        Name1=(TextView)findViewById(R.id.textView1);
-        Surname1=(TextView)findViewById(R.id.textView);
         if(savedInstanceState!=null){
             Result.setText(savedInstanceState.getString("Result"));
         }
