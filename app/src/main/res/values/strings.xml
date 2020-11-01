@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Лабораторная работа №2</string>
+    <string name="textView">Введите свое Имя и Фамилию</string>
+    <string name="textView1">Имя:</string>
+    <string name="textView2">Фамилия:</string>
+    <string name="button">Изменить поля</string>
+    <string name="buttonColor">Изменить цвет</string>
+    <string name="buttonAccess">Результат</string>
+</resources>
